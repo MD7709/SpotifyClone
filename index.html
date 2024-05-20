@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+        <link rel="icon" type="x-icon" href="spotify.ico">
+        <link rel="stylesheet" href="CSS/Most.css">
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+    </head>
+     <body>
+        <div class="container flex bg-black">
+            <div class="left m-2">
+                <div class="home bg-gray rounded m-2 p-1">
+                    <div class="logo">
+                        <img src="SVG/logo.svg" alt="" class="invert">
+                        <div class="hidden">
+                            <img src="SVG/close.svg" alt="">
+                        </div>
+                    </div>
+                    <ul class="">
+                        <li><img src="SVG/home.svg" alt="home" class="invert">Home</li>
+                        <li><img src="SVG/search.svg" alt="search" class="invert">Search</li>
+                    </ul>
+                </div>
+                    <div class="library bg-gray m-2 p-1 rounded">
+                        <div class="heading">
+                            <img src="SVG/list.svg" alt="" class="invert">
+                                 <h2>
+                            Your Library
+                                </h2>
+                        </div>
+
+                        <div class="SongList">
+                            <ul>
+                            <!-- PlayList Show  -->
+                            </ul>
+                        </div>
+                        <div class="footer">
+
+                        <div><a href="https://www.spotify.com/in-en/legal/" id="" class=""
+                                data-encore-id="textLink"><span class="">Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id="" class=""
+                                data-encore-id="textLink"><span class="">Safety & Privacy Center</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="" class=""
+                                data-encore-id="textLink"><span class="">Privacy Policy</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="" class=""
+                                data-encore-id="textLink"><span class="">Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="" class=""
+                                data-encore-id="textLink"><span class="">About Ads</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/accessibility/" id="" class=""
+                                data-encore-id="textLink"><span class="">Accessibility</span></a></div>
+
+                         </div>
+                    </div>
+            </div>
+           
+            <div class="right rounded bg-gray">
+                <div class="header">
+                    <div class="nav">
+                        <Div class="hambar">
+                            <img src="SVG/hambar.svg" alt="">
+                        </Div>
+                        <img src="https://cdn.hugeicons.com/icons/arrow-left-01-stroke-rounded.svg" alt="arrow-left-01"
+                            width="24" height="24" class="invert" />
+                        <img src="https://cdn.hugeicons.com/icons/arrow-right-01-stroke-rounded.svg"
+                            alt="arrow-right-01" width="24" height="24" class="invert" />
+                    </div>
+                    <div class="button">
+                        <button class="btn1">Singup</button>
+                        <button class="btn">Login</button>
+                    </div>
+                </div>
+                <div class="spotifyPlaylist">
+                    <div class="nav1">
+                        <div>
+                            <h2>Spotify Playlist</h2>
+                        </div>
+                        <div>Show list</div>
+                    </div>
+                    <div class="cardContainer flex">
+                        <!-- Card Show -->
+                    </div>
+                </div>
+                <div class="player">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                    <div class="abovebar">
+
+                        <div class="songinfo"></div>
+
+                        <div class="PlaysongButton">
+                            <img id="previous" src="SVG/pre.svg" alt="">
+                            <img id="play" src="SVG/paly.svg" alt="">
+                            <img id="next" src="SVG/next.svg" alt="">
+                        </div>
+                             <div class="songtime">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    <script src="JS/index.js"></script>
+
+</html>
