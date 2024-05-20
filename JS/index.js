@@ -80,7 +80,7 @@ async function displayAlbums() {
     const e = array[index];
 
     if (e.href.includes("/songs/") && !e.href.includes(".htaccess")) {
-      let folder = e.href.split("/").slice(-1)[0];
+      let folder = e.href.split("/").slice(-2)[0];
       let a = await fetch(`/songs/${folder}/info.json`);
       let Response = await a.json();
       cardContainer.innerHTML =
