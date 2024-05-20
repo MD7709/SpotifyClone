@@ -85,7 +85,7 @@ async function displayAlbums() {
       let Response = await a.json();
       cardContainer.innerHTML =
         cardContainer.innerHTML +
-        ` <div data-folder="${folder}" class="card">
+      ` <div data-folder="${folder}" class="card">
             <div class="play">
                 <button>
                     <img src="SVG/green.svg" alt="">
